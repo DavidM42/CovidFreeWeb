@@ -38,7 +38,8 @@
         "src/inject/keywords.js",
         "src/inject/elementModification.js",
         "src/inject/reddit/redditDesktop.js",
-        "src/inject/reddit/redditMobile.js"
+        "src/inject/reddit/redditMobile.js",
+        "src/inject/google/unite.js"
       ],
       "css": [
         "src/inject/blur.css"
@@ -52,7 +53,9 @@
       "js": [
         "src/inject/keywords.js",
         "src/inject/elementModification.js",
-        "src/inject/googleSearch.js"
+        "src/inject/google/googleSearchDesktop.js",
+        "src/inject/google/googleSearchMobile.js",
+        "src/inject/google/unite.js"
       ],
       "css": [
         "src/inject/blur.css"

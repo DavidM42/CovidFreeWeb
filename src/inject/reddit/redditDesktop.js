@@ -50,11 +50,8 @@ const cleanseComments = () => {
     }
 };
 
+// eslint-disable-next-line no-unused-vars
 const cleanse = () => {
     cleansePosts();
     cleanseComments();
 };
-
-
-document.body.onscroll = cleanse;
-document.body.onload = cleanse;

@@ -42,11 +42,8 @@ const cleanseResults = () => {
     }
 };
 
+// eslint-disable-next-line no-unused-vars
 const cleanse = () => {
     cleanseHeadlines();
     cleanseResults();
 };
-
-
-document.body.onscroll = cleanse;
-document.body.onload = cleanse;

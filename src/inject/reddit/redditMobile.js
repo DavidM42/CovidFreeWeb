@@ -47,11 +47,8 @@ const cleanseMobileComments = () => {
     }
 };
 
+// eslint-disable-next-line no-unused-vars
 const cleanseMobile = () => {
     cleanseMobilePosts();
     cleanseMobileComments();
 };
-
-
-document.body.onscroll = cleanseMobile;
-document.body.onload = cleanseMobile;
