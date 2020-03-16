@@ -37,7 +37,8 @@
       "js": [
         "src/inject/keywords.js",
         "src/inject/elementModification.js",
-        "src/inject/reddit.js"
+        "src/inject/reddit/redditDesktop.js",
+        "src/inject/reddit/redditMobile.js"
       ],
       "css": [
         "src/inject/blur.css"

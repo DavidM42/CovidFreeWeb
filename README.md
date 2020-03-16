@@ -6,7 +6,7 @@ The content filtered is not deleted but instead blurred out so you can still cho
 ## Platforms currently supported
 
 * Twitter (timeline & replies to tweets)
-* Reddit (timeline & replies)
+* Reddit (timeline & replies on mobile and desktop site)
 * Google Search (news cards & results)
 
 Pull Requests/Issues for additional platforms and websites would be appreciated.
