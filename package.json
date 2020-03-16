@@ -1,6 +1,6 @@
 {
   "name": "CovidFreeWeb",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "This browser extension tries to reduce the strain by constant covid news and spam on social networks which can lead to panic",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "CovidFreeWeb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "This extension tries to reduce the strain by constant covid news and spam on social networks which can lead to panic",
   "homepage_url": "https://github.com/DavidM42/CovidFreeWeb",
