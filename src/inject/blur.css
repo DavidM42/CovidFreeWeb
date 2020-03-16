@@ -1,14 +1,15 @@
 .blur{
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    -webkit-filter: blur(5px) !important;
+    -moz-filter: blur(5px) !important;
+    -o-filter: blur(5px) !important;
+    -ms-filter: blur(5px) !important;
+    filter: blur(5px) !important;
 }
+
 .blur:hover {
-    -webkit-filter: none;
-    -moz-filter: none;
-    -o-filter: none;
-    -ms-filter: none;
-    filter: none;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    -o-filter: none !important;
+    -ms-filter: none !important;
+    filter: none !important;
 }

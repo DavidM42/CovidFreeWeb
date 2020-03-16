@@ -1,5 +1,7 @@
 // only works for video tweets
 // const tweetText = document.querySelectorAll('#tweet-text');
+
+// eslint-disable-next-line no-unused-vars
 const cleanseTweets = () => {
     const tweetTimesAs = document.body.querySelectorAll('[href*="/status/"]');
 
@@ -35,6 +37,3 @@ const cleanseTweets = () => {
         }
     }
 };
-
-document.body.onscroll = cleanseTweets;
-document.body.onload = cleanseTweets;

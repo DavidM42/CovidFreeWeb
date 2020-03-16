@@ -19,12 +19,14 @@
   "content_scripts": [
     {
       "matches": [
-        "https://twitter.com/*"
+        "https://*.twitter.com/*"
       ],
       "js": [
         "src/inject/keywords.js",
         "src/inject/elementModification.js",
-        "src/inject/twitter.js"
+        "src/inject/twitter/twitterDesktop.js",
+        "src/inject/twitter/twitterMobile.js",
+        "src/inject/twitter/unite.js"
       ],
       "css": [
         "src/inject/blur.css"
